@@ -1,4 +1,5 @@
-## Web1. https://jsonplaceholder.typicode.com/posts?userId=1&_limit=5
+Web1
+https://jsonplaceholder.typicode.com/posts?userId=1&_limit=5
 
 | Часть | Значение |
 |-------|----------|
@@ -8,7 +9,7 @@
 | Путь | /posts |
 | Query | userId=1, _limit=5 |
 
-## Web8. Адрес 1
+Web8
 
 https://jsonplaceholder.typicode.com/comments?postId=7&limit=4
 
@@ -20,7 +21,7 @@ https://jsonplaceholder.typicode.com/comments?postId=7&limit=4
 | Путь | /comments |
 | Query | postId=7, limit=4 |
 
-## Web8. Адрес 2
+Web8
 
 http://localhost:8080/tasks?page=2&start=date
 
@@ -30,7 +31,7 @@ http://localhost:8080/tasks?page=2&start=date
 | Хост | localhost |
 | Порт | 8080 |
 
-## Web8. Адрес 3
+Web8
 
 https://api.example.com:3000/users/42/posts?status=active
 
