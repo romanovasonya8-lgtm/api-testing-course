@@ -2,7 +2,7 @@
   "name": "Софья Романова",
   "age": 18,
   "student": true,
-  "middleName": "Александровна",
+  "middleName": null,
   "city": "Москва",
   "address": {
     "street": "Ленина, 15",
