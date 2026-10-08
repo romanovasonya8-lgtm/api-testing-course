@@ -1,2 +1,4 @@
-# api-testing-course
-Романова Софья, 3ИП-4-24
+api-testing-course
+Романова Софья, 
+3ИП-4-24,
+УП03
