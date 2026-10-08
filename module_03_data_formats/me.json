@@ -1,1 +1,13 @@
-
+{
+  "name": "Софья Романова",
+  "age": 18,
+  "student": true,
+  "middleName": "Александровна",
+  "city": "Москва",
+  "address": {
+    "street": "Ленина, 15",
+    "zip": "101000"
+  },
+  "hobbies": ["рисование", "мода", "собаки"],
+  "email": "romanovasonya8@gmail.com"
+}
