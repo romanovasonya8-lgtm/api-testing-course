@@ -41,13 +41,17 @@
 | DELETE | нет | да | выведено из теории 2.3, наблюдение — Met4 |
 
 ## Met7
-/api/getUsers  действие в: в пути (getUsers)  номер ресурса: нет номера  верная пара: GET /users
-/api?action=deleteUser&id=5  действие в: в query (action)  номер ресурса: в query (id=5)  верная пара: DELETE /users/5
-/users/5/remove действие в:  в пути (remove)  номер ресурса: в пути (5)  верная пара:  DELETE /users/5 
-/posts/delete-all действие в: в пути (delete-all) номер ресурса: нет номера  верная пара:  DELETE /posts
+
+| Адрес | Где действие | Номер ресурса | Верная пара метод + путь |
+|-------|--------------|---------------|---------------------------|
+| /api/getUsers | в пути (getUsers) | нет | GET /users |
+| /api?action=deleteUser&id=5 | в query (action) | в query (id=5) | DELETE /users/5 |
+| /users/5/remove | в пути (remove) | в пути (5) | DELETE /users/5 |
+| /posts/delete-all | в пути (delete-all) | нет | DELETE /posts |
+
 Вывод: во всех четырёх адресах действие записано в пути или в query.
-По REST действие должно уходить в метод, а в адресе остаётся только
-ресурс с его номером
+По REST действие уходит в метод, а в адресе остаётся только ресурс
+с его номером.
 
 ## Met9
 - С Accept: статус 200, начало тела: { "id": 1, "name": "Leanne Graham",
